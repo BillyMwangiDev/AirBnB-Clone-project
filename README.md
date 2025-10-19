@@ -34,6 +34,31 @@ Containerization: Docker
 
 Continuous Integration/Deployment: CI/CD Pipelines
 
+👥 Team Roles
+Backend Developer
+
+Develops and maintains the server-side logic, APIs, and business workflows such as listings, bookings, and payments, ensuring data accuracy and performance.
+
+Database Administrator (DBA)
+
+Designs, manages, and optimizes the PostgreSQL database, ensuring data integrity, backups, and efficient query performance.
+
+DevOps Engineer
+
+Automates deployment, testing, and monitoring processes. Manages Docker, CI/CD pipelines, and system infrastructure for scalability and reliability.
+
+QA Engineer
+
+Tests and validates backend functionality to ensure quality, stability, and performance. Detects and reports bugs before deployment.
+
+System Architect
+
+Defines the technical architecture and overall system design, ensuring scalability, modularity, and alignment with business objectives.
+
+Project Manager
+
+Oversees timelines, resources, and communication among team members. Ensures deliverables meet project goals and deadlines.
+
 Author: Billy Mwangi
 License: MIT
 Version: 1.0.0
