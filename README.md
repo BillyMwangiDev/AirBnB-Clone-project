@@ -217,6 +217,36 @@ Provides developers with detailed and standardized documentation for REST and Gr
 
 Improves system performance through caching and database indexing. This feature reduces response time, enhances scalability, and ensures the backend can handle high user traffic efficiently.
 
+🔒 API Security
+
+Security is a core component of the Airbnb Clone backend. Protecting user data, ensuring secure transactions, and maintaining platform integrity are essential for user trust and compliance. The following measures will be implemented to safeguard the system:
+
+1. Authentication
+
+All API endpoints handling sensitive data will require user authentication using secure tokens (e.g., JWT). This ensures that only verified users can access or modify their personal information, bookings, or properties.
+
+2. Authorization
+
+Role-based access control (RBAC) will define permissions for different users (e.g., guests, hosts, and admins). This prevents unauthorized actions such as editing another user’s property or accessing confidential system data.
+
+3. Data Encryption
+
+Sensitive information like passwords and payment details will be encrypted in transit (via HTTPS/TLS) and at rest in the database. Encryption protects user credentials and financial data from exposure during data breaches or network attacks.
+
+4. Rate Limiting
+
+API rate limiting will be implemented to prevent abuse and denial-of-service (DoS) attacks. By controlling the number of requests per user or IP address, the system maintains stability and protects backend resources.
+
+5. Input Validation & Sanitization
+
+All incoming data will be validated and sanitized to prevent common security threats such as SQL injection, cross-site scripting (XSS), and command injection. This ensures that only safe and expected data is processed by the system.
+
+6. Secure Payments
+
+Payment operations will be handled through trusted and compliant gateways. Proper tokenization and transaction logging will protect users’ financial information and ensure traceable, fraud-free transactions.
+
+Together, these security measures ensure the backend remains resilient, user data stays protected, and transactions are processed securely.
+
 Author: Billy Mwangi
 License: MIT
 Version: 1.0.0
