@@ -76,6 +76,118 @@ Project Manager
 
 Oversees timelines, resources, and communication among team members. Ensures deliverables meet project goals and deadlines.
 
+🗄️ Database Design
+1. Users
+
+Description: Represents both guests and hosts using the platform.
+Key Fields:
+
+id: Unique identifier for each user.
+
+name: Full name of the user.
+
+email: Used for authentication and communication.
+
+password: Encrypted user password.
+
+role: Defines if the user is a guest or host.
+
+Relationships:
+
+A user can list multiple properties (host).
+
+A user can make multiple bookings (guest).
+
+A user can write multiple reviews.
+
+2. Properties
+
+Description: Represents rental listings created by hosts.
+Key Fields:
+
+id: Unique identifier for each property.
+
+title: Name of the property.
+
+description: Details about the property.
+
+price_per_night: Cost per night of stay.
+
+host_id: References the user who owns the property.
+
+Relationships:
+
+A property belongs to a user (host).
+
+A property can have multiple bookings.
+
+A property can have multiple reviews.
+
+3. Bookings
+
+Description: Represents reservations made by guests for properties.
+Key Fields:
+
+id: Unique identifier for each booking.
+
+user_id: References the guest making the booking.
+
+property_id: References the booked property.
+
+check_in_date: Start date of the stay.
+
+check_out_date: End date of the stay.
+
+Relationships:
+
+A booking belongs to a user (guest).
+
+A booking belongs to a property.
+
+A booking is linked to a payment.
+
+4. Reviews
+
+Description: Represents feedback provided by users about a property.
+Key Fields:
+
+id: Unique identifier for each review.
+
+user_id: References the user who wrote the review.
+
+property_id: References the reviewed property.
+
+rating: Numeric rating (e.g., 1–5).
+
+comment: Text feedback about the stay.
+
+Relationships:
+
+A review belongs to a user.
+
+A review belongs to a property.
+
+5. Payments
+
+Description: Records payment transactions related to bookings.
+Key Fields:
+
+id: Unique identifier for each payment.
+
+booking_id: References the related booking.
+
+amount: Total amount paid.
+
+payment_method: e.g., credit card, PayPal, M-Pesa.
+
+status: Indicates if the payment was successful, pending, or failed.
+
+Relationships:
+
+A payment belongs to a booking.
+
+A booking has one payment.
+
 Author: Billy Mwangi
 License: MIT
 Version: 1.0.0
