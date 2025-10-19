@@ -188,6 +188,35 @@ A payment belongs to a booking.
 
 A booking has one payment.
 
+✨ Feature Breakdown
+1. User Management
+
+Handles user registration, authentication, and profile management. This feature ensures users can securely create accounts, log in, and manage their profiles, enabling a personalized experience for both guests and hosts.
+
+2. Property Management
+
+Allows hosts to create, update, and manage property listings. It enables the platform to display available properties with details like descriptions, prices, and amenities, forming the foundation for the booking process.
+
+3. Booking System
+
+Facilitates reservations and manages booking details such as check-in and check-out dates. It connects guests with hosts, ensuring that availability, pricing, and scheduling are properly coordinated.
+
+4. Payment Processing
+
+Manages secure financial transactions between guests and hosts. This feature ensures accurate billing, transaction tracking, and payment confirmation for completed bookings.
+
+5. Review System
+
+Allows users to leave ratings and feedback about their stays. It builds trust within the platform by helping guests make informed decisions and hosts improve their property offerings based on user experiences.
+
+6. API Documentation
+
+Provides developers with detailed and standardized documentation for REST and GraphQL endpoints. This ensures easy integration, testing, and expansion of the backend services.
+
+7. Data Optimization
+
+Improves system performance through caching and database indexing. This feature reduces response time, enhances scalability, and ensures the backend can handle high user traffic efficiently.
+
 Author: Billy Mwangi
 License: MIT
 Version: 1.0.0
