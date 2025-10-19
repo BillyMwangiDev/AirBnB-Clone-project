@@ -19,20 +19,37 @@ Review System: Allow users to rate and review properties.
 Data Optimization: Improve performance using caching and indexing.
 
 ⚙️ Technology Stack
+Django
 
-Backend Framework: Django
+A high-level Python web framework used to build and structure the backend of the application, managing APIs, models, and core logic efficiently.
 
-API Layer: Django REST Framework & GraphQL
+Django REST Framework (DRF)
 
-Database: PostgreSQL
+Extends Django to create robust and well-documented RESTful APIs, enabling CRUD operations for users, properties, bookings, and payments.
 
-Asynchronous Tasks: Celery
+GraphQL
 
-Caching & Session Management: Redis
+A flexible query language that allows clients to request specific data from the server, improving efficiency and reducing over-fetching.
 
-Containerization: Docker
+PostgreSQL
 
-Continuous Integration/Deployment: CI/CD Pipelines
+A powerful relational database used to store and manage user, property, and booking data securely and reliably.
+
+Celery
+
+Handles asynchronous tasks such as sending notifications, processing payments, and background job execution.
+
+Redis
+
+Used for caching, session management, and as a message broker to support Celery, improving performance and responsiveness.
+
+Docker
+
+Provides containerization to ensure consistent development, testing, and deployment environments across different systems.
+
+CI/CD Pipelines
+
+Automate the testing, integration, and deployment processes to maintain code quality and streamline continuous delivery.
 
 👥 Team Roles
 Backend Developer
