@@ -261,7 +261,7 @@ GitHub Actions: Automates workflows such as testing, linting, and deployment dir
 
 Docker: Ensures consistency across development, testing, and production environments by packaging applications in containers.
 
-Jenkins (optional): Can be used for managing complex build and deployment pipelines.
+Jenkins : Can be used for managing complex build and deployment pipelines.
 
 Docker Hub / AWS / Render: Used for deploying and hosting containerized applications in production environments.
 
