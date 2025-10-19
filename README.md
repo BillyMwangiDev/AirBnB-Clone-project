@@ -247,6 +247,27 @@ Payment operations will be handled through trusted and compliant gateways. Prope
 
 Together, these security measures ensure the backend remains resilient, user data stays protected, and transactions are processed securely.
 
+🚀 CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the process of building, testing, and deploying code changes. They ensure that new features and updates are integrated smoothly, reducing manual effort and minimizing errors during development and deployment.
+
+Why CI/CD is Important
+
+Implementing a CI/CD pipeline enhances the reliability and speed of the development process. Every code change is automatically tested and validated before being merged, ensuring that the system remains stable and production-ready at all times. This approach promotes collaboration among developers, reduces integration issues, and allows for faster delivery of new features.
+
+Tools Used
+
+GitHub Actions: Automates workflows such as testing, linting, and deployment directly from the GitHub repository.
+
+Docker: Ensures consistency across development, testing, and production environments by packaging applications in containers.
+
+Jenkins (optional): Can be used for managing complex build and deployment pipelines.
+
+Docker Hub / AWS / Render: Used for deploying and hosting containerized applications in production environments.
+
+Together, these tools create a streamlined and automated workflow that supports continuous improvement and efficient software delivery.
+
+
 Author: Billy Mwangi
 License: MIT
 Version: 1.0.0
